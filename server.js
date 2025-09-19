@@ -24,6 +24,7 @@ app.post('/chat', async (req, res) => {
 
   try {
     const chatCompletion = await openai.chat.completions.create({
+      // Usando um modelo estável para evitar erros de "não encontrado"
       model: "gpt-4o-mini-2024-07-18",
       messages: [{ role: "user", content: prompt }],
     });
