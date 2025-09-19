@@ -1,7 +1,7 @@
 {
   "name": "chatgpt-api-server",
   "version": "1.0.0",
-  "description": "Servidor proxy para a API do ChatGPT",
+  "description": "Servidor para a API do ChatGPT",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
